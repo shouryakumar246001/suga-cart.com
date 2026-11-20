@@ -8,6 +8,11 @@ const outfit = Outfit({ subsets: ["latin"], weight: ["400", "500", "600"] });
 export const metadata = {
     title: "suga cart.com - Shop smarter",
     description: "suga cart.com - Shop smarter",
+    icons: {
+        icon: "/icon.png",
+        shortcut: "/icon.png",
+        apple: "/icon.png",
+    },
 };
 
 export default function RootLayout({ children }) {
